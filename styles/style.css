@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #2B227D;
+}
+a {
+  text-decoration: none;
+}
+.main-content {
+  position: relative;
+  background: #F7F8FA;
+  padding: 10px;
+}
+.logo {
+  width: 100px;
+}
+.navbar-dots {
+  position: absolute;
+  right: 0;
+}
+.navbar-dots img {
+  width: 120px;
+}
+.top-right-corner {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 10%;
+}
+.top-left-corner {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 10%;
+  transform: rotate(270deg);
+}
+.bottom-right-corner {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 10%;
+  transform: rotate(90deg);
+}
+.bottom-left-corner {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 10%;
+  transform: rotate(180deg);
+}
+.top-border {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  width: 70%;
+  margin: auto;
+}
+.right-border {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 10px;
+}
+.bottom-border {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  transform: rotate(180deg);
+  width: 70%;
+  margin: auto;
+}
+.left-border {
+  left: 10px;
+}
+.right-border {
+  right: 10px;
+}
+.side-border, .side-sec-border {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background-color: #2B227D;
+  border-radius: 10px;
+}
+.left-sec-border {
+  left: 15px;
+}
+.right-sec-border {
+  right: 15px;
+}
+.box-text{
+  text-indent: 20px;
+}
+section {
+  position: relative;
+}
+.heading-line-left {
+  position: absolute;
+  top: 3rem;
+  left: 20px;
+}
+.heading-line-right {
+  position: absolute;
+  top: 3rem;
+  right: 20px;
+  transform: rotate(180deg);
+}
+.steps {
+  border-radius: 24px;
+  background: linear-gradient(90deg, #005EAB -34.56%, rgba(0, 94, 171, 0.00) 100.66%);
+}
+.gb-flag {
+  background: url(../images/gb-flag.png) rgba(255, 255, 255, 0.95);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.us-flag {
+  background: url(../images/usa-flag.png) rgba(255, 255, 255, 0.95);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.circles {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: auto;
+  color: #ffffff;
+}
+.btn-blue {
+  background-color: #005EAB;
+  color: #fff;
+}
+.purple-button {
+  background-color: #BB6BD9;
+  color: #ffffff !important;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+.card-img-top {
+  height: 284px;
+  object-fit: cover;
+}
+.un-stamps {
+  width: 276px;
+  height: 200px;
+  object-fit: contain;
+}
+.footer {
+  color: #ffffff !important;
+  background-color: #005EAB;
+}
+.offcanvas {
+  background-color: #F7F8FA;
+}
+.offcanvas-header {
+  justify-content: end;
+  color: #2B227D;
+  padding: 0 !important;
+}
+.offcanvas-body {
+  padding: 0 !important;
+}
+.accordion {
+  --bs-accordion-bg: #F7F8FA !important;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-inner-border-radius: none;
+  --bs-accordion-color: #2B227D;
+  --bs-accordion-active-bg: none;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.department-listing {
+  border: 8px #2B227D solid;
+  border-radius: 15px;
+}
+.image-container {
+  position: relative;
+  display: inline-block; 
+} 
+.text-overlay {
+  position: absolute;
+  top: 0px; 
+  padding:5px;
+}
+.img-cont {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img-cont-1 {
+  background-image: url(../images/vecteezy_pink_1.png);
+}
+.img-cont-2 {
+  background-image: url(../images/vecteezy_pink_2.png);
+}
+.img-cont-3 {
+  background-image: url(../images/vecteezy_pink_3.png);
+}
+.all-exams_section, .message-section {
+  padding-bottom: 120px;
+}
+.overview-listing li::before {
+  content: url(../images/check.png);
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.box-area {
+  box-shadow: 0px 0px 20px 0px rgba(43,34,125,0.7);
+}

@@ -1,0 +1,279 @@
+@media screen and (max-width: 320px) {
+  .side-border {
+    padding: 1px;
+  }
+  .side-sec-border {
+    padding: 0.5px;
+  }
+  .left-sec-border {
+    left: 5px;
+  }
+  .right-sec-border {
+    right: 5px;
+  }
+  .fs-3 {
+    font-size: calc(0.8rem + .6vw)!important;
+  }
+  .department-listing {
+    width: 100% !important;
+  }
+  .department-listing button {
+    padding: 0.25rem 0.5rem !important;
+  }
+  .department-listing .col-2 {
+    padding: 0 !important;
+  }
+  .badge-sample .samples{
+    width: 100% !important;
+  }
+  .testimonies img.w-100 {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .side-border {
+    padding: 1.5px;
+  }
+  .side-sec-border {
+    padding: 0.8px;
+  }
+  .left-sec-border {
+    left: 8px;
+  }
+  .right-sec-border {
+    right: 8px;
+  }
+  .fs-3 {
+    font-size: calc(0.8rem + .6vw)!important;
+  }
+  .fs-4 {
+    font-size: calc(0.8rem + .3vw)!important;
+  }
+  .logo {
+    width: 50px;
+  }
+  .navbar-dots img {
+    width: 90px;
+  }
+  .page-heading_section {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 3rem 1rem !important;
+  }
+  .page-title, .h1 {
+    font-size: calc(1rem + 1.5vw);
+  }
+  .page-logo_section {
+    margin: 0 0 1rem !important;
+  }
+  .adventages_section {
+    width: 90% !important;
+  }
+  .adventages_section>div {
+    padding: 0 !important;
+  }
+  .adventages_section img {
+    width: 80%;
+  }
+  .heading-line-left, .heading-line-right {
+    width: 25%;
+  }
+  .section_bottom_img {
+    width: 30%;
+  }
+  .steps img {
+    width: 75%;
+  }
+  .steps.w-90 {
+    width: 95% !important;
+  }
+  .steps.w-80 {
+    width: 90% !important;
+  }
+  .steps.w-70 {
+    width: 85% !important;
+  }
+  .steps.w-60 {
+    width: 80% !important;
+  }
+  .steps_section {
+    margin: 0 auto 2rem !important;
+  }
+  .steps-section .h1, .flag_section .h1, .department_section .h1, .origin_section .h1 {
+    padding: 3rem 0 0 !important;
+  }
+  .circles {
+    width: 50px;
+    height: 50px;
+  }
+  .card-img-top {
+    height: 225px;
+  }
+  .un-stamps {
+    width: 176px;
+    height: 100px;
+  }
+  .department-listing {
+    width: 100% !important;
+  }
+  .department-listing button {
+    padding: 0.25rem 0.5rem !important;
+  }
+  .department-listing .col-2 {
+    padding: 0 !important;
+  }
+  .message-section .box {
+    width: 95% !important;
+  }
+  .badge-sample .samples{
+    width: 100% !important;
+  }
+  .testimonies img.w-100 {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .side-border {
+    padding: 1.8px;
+  }
+  .side-sec-border {
+    padding: 1px;
+  }
+  .left-sec-border {
+    left: 10px;
+  }
+  .right-sec-border {
+    right: 10px;
+  }
+  .fs-3 {
+    font-size: calc(0.8rem + .6vw)!important;
+  }
+  .fs-4 {
+    font-size: calc(0.8rem + .3vw)!important;
+  }
+  .logo {
+    width: 80px;
+  }
+  .navbar-dots img {
+    width: 100px;
+  }
+  .page-heading_section {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+  .page-title, .h1 {
+    font-size: calc(1rem + 1.5vw);
+  }
+  .page-logo_section {
+    margin: 0 0 1rem !important;
+  }
+  .adventages_section {
+    width: 75% !important;
+    margin: 1rem auto !important;
+  }
+  .adventages_section>div {
+    padding: 0 !important;
+  }
+  .adventages_section img {
+    width: 80%;
+  }
+  .heading-line-left, .heading-line-right {
+    width: 25%;
+  }
+  .section_bottom_img {
+    width: 35%;
+  }
+  .steps.w-90 {
+    width: 95% !important;
+  }
+  .steps.w-80 {
+    width: 90% !important;
+  }
+  .steps.w-70 {
+    width: 85% !important;
+  }
+  .steps.w-60 {
+    width: 80% !important;
+  }
+  .steps_section {
+    margin: 0 auto 2rem !important;
+  }
+  .steps-section .h1, .flag_section .h1, .department_section .h1, .origin_section .h1 {
+    padding: 3rem 0 0 !important;
+  }
+  .card-img-top {
+    height: 225px;
+  }
+  .un-stamps {
+    width: 176px;
+    height: 100px;
+  }
+  .department-listing {
+    width: 100% !important;
+  }
+  .message-section .box {
+    width: 95% !important;
+  }
+  .badge-sample .samples{
+    width: 100% !important;
+  }
+  .testimonies img.w-100 {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 959px) {
+  .side-border {
+    padding: 3px;
+  }
+  .side-sec-border {
+    padding: 1.8px;
+  }
+  .left-sec-border {
+    left: 14px;
+  }
+  .right-sec-border {
+    right: 14px;
+  }
+  .fs-3 {
+    font-size: calc(1rem + .6vw)!important;
+  }
+  .fs-4 {
+    font-size: calc(1rem + .3vw)!important;
+  }
+  .logo {
+    width: 90px;
+  }
+  .navbar-dots img {
+    width: 110px;
+  }
+  .page-heading_section {
+    width: 90% !important;
+  }
+  .adventages_section {
+    width: 90% !important;
+  }
+  .heading-line-left, .heading-line-right {
+    width: 30%;
+  }
+  .un-stamps {
+    width: 176px;
+    height: 100px;
+  }
+  .message-section .box {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 960px) {
+  .side-border {
+    padding: 3px;
+  }
+  .side-sec-border {
+    padding: 2px;
+  }
+  .left-sec-border {
+    left: 15px;
+  }
+  .right-sec-border {
+    right: 15px;
+  }
+}

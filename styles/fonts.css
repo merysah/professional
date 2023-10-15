@@ -1,0 +1,23 @@
+.javanese {
+  font-family: javanese;
+}
+.lucida {
+  font-family: lucidafont;
+}
+.italianno {
+  font-family: italianno;
+}
+
+
+@font-face {
+  font-family: javanese;
+  src: url(../fonts/Javanese\ text.ttf);
+}
+@font-face {
+  font-family: lucidafont;
+  src: url(../fonts/Lucida\ Calligraphy\ EF.otf);
+}
+@font-face {
+  font-family: italianno;
+  src: url(../fonts/Italianno-Regular.ttf);
+}
