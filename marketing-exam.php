@@ -7,6 +7,8 @@
       <img src="images/header_bottom_right.png" class="w-25" alt="">
     </div>
   </div>
+
+  <!-- Highlights section -->
   <section>
     <div class="my-md-5 w-50 mx-auto">
       <p class="h1 text-uppercase text-center javanese py-5">Highlights</p>
@@ -19,6 +21,8 @@
       <div class="col-md-12"><span class="fw-bold">Globally Recognised Exam Duration : </span>one hour</div>
     </div>
   </section>
+
+  <!-- Overview section -->
   <section>
     <div class="my-md-5 w-50 mx-auto">
       <p class="h1 text-uppercase text-center javanese py-5">Overview</p>
@@ -51,16 +55,20 @@
       <img src="images/section-bottom.png" alt="" class="section_bottom_img">
     </div>
   </section>
+
+  <!-- What are the Exam Elements? section -->
   <section>
-    <div class="my-md-5 w-75 mx-auto">
+    <div class="my-md-5 w-75 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">What are the Exam Elements?</p>
       <img src="images/heading-line.png" class="heading-line-left" alt="">
       <img src="images/heading-line.png" class="heading-line-right" alt="">
     </div>
     <div class="box box-area w-80 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
   </section>
+
+  <!-- Accreditation and affiliations section -->
   <section>
-    <div class="my-md-5 w-75 mx-auto">
+    <div class="my-md-5 w-75 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Accreditation and affiliations</p>
       <img src="images/heading-line.png" class="heading-line-left" alt="">
       <img src="images/heading-line.png" class="heading-line-right" alt="">
@@ -79,7 +87,7 @@
         <img class="w-100" src="images/cambridge.png" alt="">
       </div>
     </div>
-    <div class="text-center fs-1 italianno my-md-5">
+    <div class="text-center fs-1 italianno my-md-5 mt-4">
       Get Certified , Get Qualified
     </div>
     <div class="text-center my-md-3">
@@ -87,8 +95,10 @@
       <div class="mt-md-5 mt-2"><img src="images/section-bottom.png" alt="" class="section_bottom_img"></div>
     </div>
   </section>
-  <section>
-    <div class="my-md-5 w-75 mx-auto">
+
+  <!-- Sample Exam Certificate section -->
+  <section class="sample">
+    <div class="my-md-5 w-75 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Sample Exam Certificate</p>
       <img src="images/heading-line.png" class="heading-line-left" alt="">
       <img src="images/heading-line.png" class="heading-line-right" alt="">
@@ -150,7 +160,6 @@
         </div>
       </div>
     </div>
-    
   </section>
 </div>
 <?php include('footer.php') ?>

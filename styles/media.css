@@ -26,7 +26,10 @@
   .badge-sample .samples{
     width: 100% !important;
   }
-  .testimonies img.w-100 {
+  .testimonies img.w-100:not(.testimonies-footer) {
+    width: 50% !important;
+  }
+  .heading-section {
     width: 50% !important;
   }
 }
@@ -64,7 +67,8 @@
     font-size: calc(1rem + 1.5vw);
   }
   .page-logo_section {
-    margin: 0 0 1rem !important;
+    margin: 0 auto 1rem !important;
+    min-height: 175px;
   }
   .adventages_section {
     width: 90% !important;
@@ -128,7 +132,10 @@
   .badge-sample .samples{
     width: 100% !important;
   }
-  .testimonies img.w-100 {
+  .testimonies img.w-100:not(.testimonies-footer) {
+    width: 50% !important;
+  }
+  .heading-section {
     width: 50% !important;
   }
 }
@@ -165,7 +172,8 @@
     font-size: calc(1rem + 1.5vw);
   }
   .page-logo_section {
-    margin: 0 0 1rem !important;
+    margin: 0 auto 1rem !important;
+    min-height: 225px;
   }
   .adventages_section {
     width: 75% !important;
@@ -217,7 +225,10 @@
   .badge-sample .samples{
     width: 100% !important;
   }
-  .testimonies img.w-100 {
+  .testimonies img.w-100:not(.testimonies-footer) {
+    width: 50% !important;
+  }
+  .heading-section {
     width: 50% !important;
   }
 }
@@ -262,6 +273,15 @@
   .message-section .box {
     width: 100% !important;
   }
+  .heading-section {
+    width: 50% !important;
+  }
+  .badge-sample>div:first-child {
+    width: 48% !important;
+  }
+  .page-logo_section {
+    min-height: 275px;
+  }
 }
 @media screen and (min-width: 960px) {
   .side-border {
@@ -275,5 +295,15 @@
   }
   .right-sec-border {
     right: 15px;
+  }
+}
+@media screen and (min-width: 958px) and (max-width: 992px) {
+  .adventages_section {
+    width: 90% !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .samples {
+    width: 100% !important;
   }
 }

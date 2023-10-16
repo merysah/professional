@@ -48,6 +48,9 @@
 .bg-red {
   background-color: #EB5757 !important;
 }
+.bg-grey {
+  background-color: #F6F6F6 !important;
+}
 
 .border-blue {
   border: 3px solid #2B227D !important;

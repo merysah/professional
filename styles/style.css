@@ -94,18 +94,21 @@ a {
 .box-text{
   text-indent: 20px;
 }
+.page-logo_section {
+  min-height: 430px;
+}
 section {
   position: relative;
 }
 .heading-line-left {
   position: absolute;
   top: 3rem;
-  left: 20px;
+  left: 0;
 }
 .heading-line-right {
   position: absolute;
   top: 3rem;
-  right: 20px;
+  right: 0;
   transform: rotate(180deg);
 }
 .steps {
@@ -200,7 +203,7 @@ section {
 .img-cont-3 {
   background-image: url(../images/vecteezy_pink_3.png);
 }
-.all-exams_section, .message-section {
+.all-exams_section, .message-section, .testimonies {
   padding-bottom: 120px;
 }
 .overview-listing li::before {
@@ -213,3 +216,28 @@ section {
 .box-area {
   box-shadow: 0px 0px 20px 0px rgba(43,34,125,0.7);
 }
+.custom-listing-bullet {
+  background-image: url(../images/listing-bg.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  width: 50px;
+  text-align: center;
+}
+/* .bottom-image:after {
+  content: "";
+    display: block;
+    height: 70px;
+    background-image: url(../images/border-bottom.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+} */
+/* .bottom-image {
+  border-bottom: 20px solid #000;
+    border-image:url(../images/border-bottom.png);
+    border-image-repeat: round;
+    border-image-slice: 300;
+    text-align: center;
+    margin: 0px auto;
+    width:70%;
+} */

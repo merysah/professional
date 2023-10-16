@@ -9,8 +9,10 @@
             <img src="images/header_bottom_right.png" class="w-25" alt="">
           </div>
         </div>
-        <div class="row my-5 page-logo_section">
-          <div class="col-6"></div>
+        <div class="row my-5 page-logo_section mx-3">
+          <div class="col-6 bg-grey d-flex justify-content-center align-items-center">
+            <img src="images/play.png" alt="" style="max-width: 11%">
+          </div>
           <div class="col-6 text-center">
             <img src="images/logo.png" class="w-50" alt="">
             <div class="lucida fs-3 pt-2">Creating the Professional Elite</div>
@@ -25,33 +27,33 @@
             expertise you possess.</p>
         </div>
 
-        <div class="row box w-65 mx-auto my-5 adventages_section">
+        <div class="row box w-65 mx-auto my-md-5 my-2 adventages_section">
           <div class="col-md-6 col-sm-12 p-3">
-            <div class="row">
+            <div class="row my-2">
               <div class="col-4 my-auto"><img src="images/earth.png" alt=""></div>
               <div class="col-8 my-auto"><span class="fs-3"><span class="fw-bold">Globally</span> Recognized</span>
               </div>
             </div>
-            <div class="row">
+            <div class="row my-2">
               <div class="col-4 my-auto"><img src="images/clock.png" alt=""></div>
               <div class="col-8 my-auto"><span class="fs-3"><span class="fw-bold">One hour</span> Exam on average</span>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-12 p-3">
-            <div class="row">
+            <div class="row my-2">
               <div class="col-4 my-auto"><img src="images/map-point.png" alt=""></div>
               <div class="col-8 my-auto"><span class="fs-3">Take it <span class="fw-bold">anytime</span> anywhere</span>
               </div>
             </div>
-            <div class="row">
+            <div class="row my-2">
               <div class="col-4 my-auto"><img src="images/www-globe.png" alt=""></div>
               <div class="col-8 my-auto"><span class="fs-3"><span class="fw-bold">100%</span> online</span></div>
             </div>
           </div>
         </div>
 
-        <div class="my-5 w-90 mx-auto">
+        <div class="my-md-5 w-90 mx-auto">
           <p class="fst-italic text-justify fs-3">
             When you take <span class="fw-bold">Manchester Professional Exam</span> , you can be confident that your
             accomplishments will be recognized and respected on an international level. Your journey towards gaining the
@@ -66,8 +68,8 @@
 
       <!-- Steps section -->
       <section class="steps-section">
-        <div class="my-5 w-50 mx-auto">
-          <p class="h1 text-uppercase text-center javanese py-5">Take Manchester Exam to:</p>
+        <div class="my-md-5 w-50 mx-auto">
+          <p class="h1 text-uppercase text-center javanese py-5 section-heading">Take Manchester Exam to:</p>
           <img src="images/heading-line.png" class="heading-line-left" alt="">
           <img src="images/heading-line.png" class="heading-line-right" alt="">
         </div>
@@ -103,7 +105,7 @@
             </div>
           </div>
         </div>
-        <div class="my-5 w-90 mx-auto">
+        <div class="my-md-5 w-90 mx-auto">
           <div class="d-flex align-items-center my-3">
             <img src="images/check.png" alt="" width="30" height="30">
             <p class="fs-3 m-0 px-3">Demonstrate your <span class="fw-bold">expertise</span> to the world</p>
@@ -138,7 +140,7 @@
 
       <!-- What you get section -->
       <section class="flag_section">
-        <div class="my-5 w-50 mx-auto">
+        <div class="my-md-5 w-50 mx-auto">
           <p class="h1 text-uppercase text-center javanese py-5">What will you get when you pass the Manchester
             Professional Exam?</p>
           <img src="images/heading-line.png" class="heading-line-left" alt="">
@@ -146,32 +148,32 @@
         </div>
         <div
           class="box my-5 w-90 mx-auto border border-blue rounded-25 bg-white fs-3 d-flex flag-section overflow-hidden">
-          <div class="gb-flag">
-            <div class="mt-3">
+          <div class="gb-flag w-100">
+            <div class="pt-3 h-50">
               <div class="circles d-flex align-items-center justify-content-center bg-purple fs-3">1</div>
-              <p class="fs-3 text-uppercase w-50 mx-auto text-center"><span class="fw-bold">Free</span> Exam
+              <p class="fs-3 text-uppercase w-50 mx-auto text-center my-0"><span class="fw-bold">Free</span> Exam
                 Certificate</p>
             </div>
-            <div>
+            <div class="pb-3 h-50">
               <div class="circles d-flex align-items-center justify-content-center bg-blue fs-3">3</div>
               <p class="fs-3 text-uppercase w-80 mx-auto text-center">Get The <span class="fw-bold">International
                   License</span> To Practise</p>
             </div>
           </div>
-          <div class="us-flag">
-            <div class="mt-3">
+          <div class="us-flag w-100">
+            <div class="pt-3 h-50">
               <div class="circles d-flex align-items-center justify-content-center bg-green fs-3">2</div>
-              <p class="fs-3 text-uppercase w-80 mx-auto text-center">Get the <span class="fw-bold">Digital Badge
+              <p class="fs-3 text-uppercase w-80 mx-auto text-center my-0">Get the <span class="fw-bold">Digital Badge
                   Credential</span> (DBC)</p>
             </div>
-            <div>
+            <div class="pb-3 h-50">
               <div class="circles d-flex align-items-center justify-content-center bg-red fs-3">4</div>
-              <p class="fs-3 text-uppercase w-80 mx-auto text-center">Get onto the global <span
+              <p class="fs-3 text-uppercase w-80 mx-auto text-center my-0">Get onto the global <span
                   class="fw-bold">register</span> of <span class="fw-bold">professionals</span></p>
             </div>
           </div>
         </div>
-        <div class="my-5 w-90 mx-auto ">
+        <div class="my-md-5 w-90 mx-auto ">
           <p class="fs-3 text-justify"><span class="fw-bold">Manchester Professional Exam</span> Manchester Professional
             Exam offers a wide range of rigorous exams, ensuring that your knowledge and skills are thoroughly assessed
             and certified. Whether you are a seasoned professional looking to validate your expertise or an ambitious
@@ -187,13 +189,13 @@
 
       <!-- Deparments section -->
       <section class="department_section">
-        <div class="my-5 w-50 mx-auto">
+        <div class="my-md-5 w-50 mx-auto">
           <p class="h1 text-uppercase text-center javanese py-5">Departments</p>
           <img src="images/heading-line.png" class="heading-line-left" alt="">
           <img src="images/heading-line.png" class="heading-line-right" alt="">
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-md-between w-90 mx-auto">
-          <div class="card border-blue rounded-25 overflow-hidden mx-auto mt-3 w-100">
+          <div class="card border-blue rounded-25 overflow-hidden mx-1 mx-md-3 mt-3 w-100">
             <img src="images/business.jpeg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title text-uppercase javanese m-0 text-blue fs-3"><u>Business</u></h5>
@@ -201,7 +203,7 @@
               <a href="#" class="btn btn-blue rounded-25 fs-4 px-3">Learn More</a>
             </div>
           </div>
-          <div class="card border-blue rounded-25 overflow-hidden mx-auto mt-3 w-100">
+          <div class="card border-blue rounded-25 overflow-hidden mx-1 mx-md-3 mt-3 w-100">
             <img src="images/technology.jpeg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title text-uppercase javanese m-0 text-blue fs-3"><u>technology</u></h5>
@@ -209,7 +211,7 @@
               <a href="#" class="btn btn-blue rounded-25 fs-4 px-3">Learn More</a>
             </div>
           </div>
-          <div class="card border-blue rounded-25 overflow-hidden mx-auto mt-3 w-100">
+          <div class="card border-blue rounded-25 overflow-hidden mx-1 mx-md-3 mt-3 w-100">
             <img src="images/humanity.jpeg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title text-uppercase javanese m-0 text-blue fs-3"><u>humanities</u></h5>
@@ -222,7 +224,7 @@
 
       <!-- Origin section -->
       <section class="origin_section">
-        <div class="my-5 w-50 mx-auto">
+        <div class="my-md-5 w-50 mx-auto">
           <p class="h1 text-uppercase text-center javanese py-5">Where does the  Manchester Professional  Exam Team come
             from?</p>
           <img src="images/heading-line.png" class="heading-line-left" alt="">

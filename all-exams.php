@@ -173,7 +173,7 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed border-bottom-blue" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              <button class="accordion-button collapsed border-x-blue" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                 <div class="javanese">/02</div>
                 <div class="d-flex justify-content-center text-center w-100">
                   <div>
@@ -335,7 +335,7 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed border-bottom-blue" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <button class="accordion-button collapsed border-x-blue" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                 <div class="javanese">/03</div>
                 <div class="d-flex justify-content-center text-center w-100">
                   <div>
