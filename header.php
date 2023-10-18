@@ -1,3 +1,5 @@
+<?php define('img', 'assets/images/'); define('Url',"http://pro.loc/"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,12 +7,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/utilities.css">
-  <link rel="stylesheet" href="styles/fonts.css">
-  <link rel="stylesheet" href="styles/media.css">
+  <link href="<?= Url.'assets/bootstrap-5.3.2-dist/css/bootstrap.min.css' ?>" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="<?= Url.'assets/styles/style.css' ?>">
+  <link rel="stylesheet" href="<?= Url.'assets/styles/utilities.css' ?>">
+  <link rel="stylesheet" href="<?= Url.'assets/styles/fonts.css' ?>">
+  <link rel="stylesheet" href="<?= Url.'assets/styles/media.css' ?>">
 </head>
 
 <body>
@@ -20,11 +21,11 @@
       <div class="container-fluid">
         <!-- Logo (Centered) -->
         <a class="navbar-brand mx-auto" href="#">
-          <img src="images/logo.png" class="logo" alt="Your Logo">
+          <img src="<?= img.'logo.png' ?>" class="logo" alt="Your Logo">
         </a>
         <button class="navbar-dots navbar-toggler border-none" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <img src="images/menu.png" alt="Your Logo">
+          <img src="<?= img.'menu.png' ?>" alt="Your Logo">
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header border-bottom-blue">
@@ -42,46 +43,46 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1">
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link active fs-3" aria-current="page" href="#">Home Page</a>
+                <a class="nav-link active fs-3" aria-current="page" href="<?= Url ?>">Home Page</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">EMPLOYERS</a>
+                <a class="nav-link fs-3" href="<?= Url ?>">EMPLOYERS</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">Eight Reasons</a>
+                <a class="nav-link fs-3" href="<?= Url ?>">Eight Reasons</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">Why MPE?</a>
+                <a class="nav-link fs-3" href="<?= Url ?>">Why MPE?</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">All Exams</a>
+                <a class="nav-link fs-3" href="<?= Url.'all-exams.php' ?>">All Exams</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">International License </a>
+                <a class="nav-link fs-3" href="<?= Url.'international-license.php' ?>">International License </a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">Global Register</a>
+                <a class="nav-link fs-3" href="<?= Url.'global-register.php' ?>">Global Register</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">Global Diploma</a>
+                <a class="nav-link fs-3" href="<?= Url.'global-diploma.php' ?>">Global Diploma</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">TESOL</a>
+                <a class="nav-link fs-3" href="<?= Url.'tesol.php' ?>">TESOL</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">Global Diploma</a>
+                <a class="nav-link fs-3" href="<?= Url.'global-diploma.php' ?>">Global Diploma</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">Professional Code of Conduct</a>
+                <a class="nav-link fs-3" href="<?= Url ?>">Professional Code of Conduct</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">Professional Commitment</a>
+                <a class="nav-link fs-3" href="<?= Url ?>">Professional Commitment</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="#">Governing Board</a>
+                <a class="nav-link fs-3" href="<?= Url ?>">Governing Board</a>
               </li>
               <li class="nav-item p-2">
-                <a class="nav-link fs-3" href="#">How to prepare</a>
+                <a class="nav-link fs-3" href="<?= Url ?>">How to prepare</a>
               </li>
 
             </ul>

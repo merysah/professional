@@ -4,10 +4,11 @@
         <div class="w-75 mx-auto p-5 my-5 page-heading_section">
           <h1 class="text-uppercase text-center javanese page-title">All exams</h1>
           <div class="text-center">
-            <img src="images/header_bottom_left.png" class="w-25" alt="">
-            <img src="images/header_bottom_right.png" class="w-25" alt="">
+            <img src="<?= img.'header_bottom_left.png' ?>" class="w-25" alt="">
+            <img src="<?= img.'header_bottom_right.png' ?>" class="w-25" alt="">
           </div>
         </div>
+        
         <div class="accordion" id="accordion-all-exams">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -27,7 +28,7 @@
                   <ul class="lst-none p-0 m-0">
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester HR Exam</p>
                         <p class="col-2 text-center fw-bold m-auto">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -41,7 +42,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester Marketing Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -55,7 +56,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester Tourism Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -69,7 +70,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester International Business 
                           Law Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
@@ -84,7 +85,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester Supply Chain Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -98,7 +99,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester TESOL Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -112,7 +113,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester Translation Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -126,7 +127,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Child EDU Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -140,7 +141,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Literature Exam</p>
                         <p class="col-2 text-center fw-bold m-auto">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -154,7 +155,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Medical Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -189,7 +190,7 @@
                   <ul class="lst-none p-0 m-0">
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester HR Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -203,7 +204,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester Marketing Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -217,7 +218,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester Tourism Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -231,7 +232,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester International Business 
                           Law Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
@@ -246,7 +247,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester Supply Chain Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -260,7 +261,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester TESOL Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -274,7 +275,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester Translation Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -288,7 +289,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Child EDU Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -302,7 +303,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Literature Exam</p>
                         <p class="col-2 text-center fw-bold m-auto">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -316,7 +317,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Medical Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -351,7 +352,7 @@
                   <ul class="lst-none p-0 m-0">
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png  " class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
                           Manchester HR Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -365,7 +366,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Child EDU Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -379,7 +380,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Literature Exam</p>
                         <p class="col-2 text-center fw-bold m-auto">50$</p>
                         <div class="col-2 text-center m-auto">
@@ -393,7 +394,7 @@
                     </li>
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4">
-                        <p class="col-8 fs-3 m-0"><img src="images/logo.png" class="mx-3" width="50" alt="">
+                        <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>" class="mx-3" width="50" alt="">
                           Manchester Medical Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">

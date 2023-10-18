@@ -31,4 +31,5 @@ $(document).ready(function () {
   }).on('hidden.bs.collapse', function() {
     resizeHeight()
   });
+  
 })

@@ -1,11 +1,11 @@
     <!-- Corners -->
-    <img src="images/corner.png" class="top-left-corner" alt="">
-    <img src="images/corner.png" class="top-right-corner" alt="">
-    <img src="images/corner.png" class="bottom-right-corner" alt="">
-    <img src="images/corner.png" class="bottom-left-corner" alt="">
+    <img src="<?= img.'corner.png' ?>" class="top-left-corner" alt="">
+    <img src="<?= img.'corner.png' ?>" class="top-right-corner" alt="">
+    <img src="<?= img.'corner.png' ?>" class="bottom-right-corner" alt="">
+    <img src="<?= img.'corner.png' ?>" class="bottom-left-corner" alt="">
     <!-- Borders -->
-    <img src="images/border.png" class="top-border" alt="">
-    <img src="images/border.png" class="bottom-border" alt="">
+    <img src="<?= img.'border.png' ?>" class="top-border" alt="">
+    <img src="<?= img.'border.png' ?>" class="bottom-border" alt="">
     <div class="left-border side-border">
       <div class="side-sec-border left-sec-border"></div>
     </div>
@@ -19,17 +19,17 @@
         <ul class="lst-none">
           <li class="my-2">
             <a href="" class="text-white td-none">
-              <img src="images/facebook.png" alt=""> Facebook
+              <img src="<?= img.'facebook.png' ?>" alt=""> Facebook
             </a>
           </li>
           <li class="my-2">
             <a href="" class="text-white td-none">
-              <img src="images/Tik Tok shape.png" alt=""> TikTok
+              <img src="<?= img.'Tik Tok shape.png' ?>" alt=""> TikTok
             </a>
           </li>
           <li class="my-2">
             <a href="" class="text-white td-none">
-              <img src="images/Instagram.png" alt=""> Instagram
+              <img src="<?= img.'Instagram.png' ?>" alt=""> Instagram
             </a>
           </li>
         </ul>
@@ -37,7 +37,7 @@
       <div class="col-md-8 col-sm-12">
         <ul class="lst-none">
           <li class="text-white">
-            <img src="images/icon _location_.png" alt="">
+            <img src="<?= img.'icon _location_.png' ?>" alt="">
             Lines with the address
           </li>
         </ul>
@@ -46,17 +46,13 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
-  <script src="scripts/script.js"></script>
+  <!-- Include jQuery -->
+  <script src="<?= Url.'assets/scripts/jquery-3.7.1.min.js' ?>" crossorigin="anonymous"></script>
+
+  <!-- Include Bootstrap JavaScript -->
+  <script src="<?= Url.'assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js' ?>" crossorigin="anonymous"></script>
+  <!-- <script src="<?= Url.'assets/bootstrap-5.3.2-dist/js/popper.min.js' ?>" crossorigin="anonymous"></script> -->
+  <!-- <script src="<?= Url.'assets/bootstrap-5.3.2-dist/js/bootstrap.min.js' ?>" crossorigin="anonymous"></script> -->
+  <script src="<?= Url.'assets/scripts/script.js' ?>"></script>
 </body>
 </html>

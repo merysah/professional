@@ -5,8 +5,8 @@
           <h1 class="text-uppercase text-center javanese page-title">Message </h1>
           <h2 class="text-center ">From The Chairman Of The Board Of Directors</h2>
           <div class="text-center">
-            <img src="images/header_bottom_left.png" class="w-25" alt="">
-            <img src="images/header_bottom_right.png" class="w-25" alt="">
+            <img src="<?= img.'header_bottom_left.png' ?>" class="w-25" alt="">
+            <img src="<?= img.'header_bottom_right.png' ?>" class="w-25" alt="">
           </div>
         </div>
         <div class="box text-justify w-75 mx-auto border border-blue rounded bg-white px-4 py-2 fs-3 pb-5">
@@ -46,7 +46,7 @@
           <p class="box-text">Yours sincerely</p>
           <div class="letter-finish d-flex justify-content-between align-items-center">
             <div class="lucida fs-1 pt-2 ">Jeffery Chandler</div>
-            <img src="images/logo.png" class="logo" width="80" alt="">
+            <img src="<?= img.'logo.png' ?>" class="logo" width="80" alt="">
           </div>
           <p>Chairman of the Board of Directors</p>
         </div>

@@ -174,6 +174,9 @@ section {
   --bs-accordion-color: #2B227D;
   --bs-accordion-active-bg: none;
 }
+.table {
+  --bs-table-bg: none;
+}
 .accordion-button:focus {
   box-shadow: none !important;
 }
@@ -203,15 +206,19 @@ section {
 .img-cont-3 {
   background-image: url(../images/vecteezy_pink_3.png);
 }
-.all-exams_section, .message-section, .testimonies {
+.all-exams_section, .message-section, .testimonies, .bottom-section {
   padding-bottom: 120px;
 }
 .overview-listing li::before {
-  content: url(../images/check.png);
+  background-image: url(../images/check.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
   display: inline-block;
-  padding-right: 3px;
   vertical-align: middle;
-  font-weight: 900;
+  content: "";
+  margin: auto 10px;
 }
 .box-area {
   box-shadow: 0px 0px 20px 0px rgba(43,34,125,0.7);
@@ -222,22 +229,42 @@ section {
   position: absolute;
   left: 0;
   width: 50px;
-  text-align: center;
+  height: 40px;
 }
-/* .bottom-image:after {
-  content: "";
-    display: block;
-    height: 70px;
-    background-image: url(../images/border-bottom.png);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-} */
-/* .bottom-image {
-  border-bottom: 20px solid #000;
-    border-image:url(../images/border-bottom.png);
-    border-image-repeat: round;
-    border-image-slice: 300;
-    text-align: center;
-    margin: 0px auto;
-    width:70%;
-} */
+.bottom-image {
+  position: relative;
+}
+.bottom-image img {
+  position: absolute;
+  left: -20px;
+  top: 35px;
+  width: 120%;
+}
+.benefits-listing {
+  border: 3px solid #219653;
+  border-radius: 100px;
+  margin: 10px 5px;
+  padding: 10px 25px;
+}
+.register-form-message {
+  margin-bottom: 155px;
+}
+.box-heading {
+  position: relative;
+}
+.box-border-left {
+  position: absolute;
+  width: 3% !important;
+  left: -40px;
+  top: 20px;
+}
+.box-border-right {
+  position: absolute;
+  width: 3% !important;
+  right: -40px;
+  top: 20px;
+  transform: rotate(180deg);
+}
+.exam-table tbody td {
+  border: 1px solid #f6f6f6;
+} 
