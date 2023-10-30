@@ -52,10 +52,10 @@
                 <a class="nav-link fs-3" href="<?= Url ?>">EMPLOYERS</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="<?= Url ?>">Eight Reasons</a>
+                <a class="nav-link fs-3" href="<?= Url.'eight-reasons.php' ?>">Eight Reasons</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="<?= Url ?>">Why MPE?</a>
+                <a class="nav-link fs-3" href="<?= Url.'why-mpe.php' ?>">Why MPE?</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
                 <a class="nav-link fs-3" href="<?= Url.'all-exams.php' ?>">All Exams</a>
@@ -76,18 +76,17 @@
                 <a class="nav-link fs-3" href="<?= Url.'global-diploma.php' ?>">Global Diploma</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="<?= Url ?>">Professional Code of Conduct</a>
+                <a class="nav-link fs-3" href="<?= Url.'code-of-conduct.php' ?>">Professional Code of Conduct</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="<?= Url ?>">Professional Commitment</a>
+                <a class="nav-link fs-3" href="<?= Url.'professional-commitment.php' ?>">Professional Commitment</a>
               </li>
               <li class="nav-item border-bottom-blue p-2">
-                <a class="nav-link fs-3" href="<?= Url ?>">Governing Board</a>
+                <a class="nav-link fs-3" href="<?= Url.'governing-board.php' ?>">Governing Board</a>
               </li>
               <li class="nav-item p-2">
-                <a class="nav-link fs-3" href="<?= Url ?>">How to prepare</a>
+                <a class="nav-link fs-3" href="<?= Url.'how-to-prepare.php' ?>">How to prepare</a>
               </li>
-
             </ul>
           </div>
         </div>

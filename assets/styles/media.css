@@ -545,9 +545,6 @@
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  .samples {
-    /* width: 100% !important; */
-  }
   .id-box {
     height: 575px;
   }

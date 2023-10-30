@@ -31,34 +31,30 @@
       </div>
       <div class="col-md-4 col-sm-12">
         <ul class="lst-none">
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">The Global Register</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Digital Badge Credential</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">International License</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Global Diploma </a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Chairman Message </a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Become an Approved Centre</a></li>
+          <li><a href="<?= Url.'global-register.php' ?>"  class="text-white fs-4">The Global Register</a></li>
+          <li><a href="<?= Url.'international-license.php' ?>"  class="text-white fs-4">International Certified Professional License</a></li>
+          <!-- <li><a href="<?= Url.'' ?>"  class="text-white fs-4">International License</a></li> -->
+          <li><a href="<?= Url.'global-diploma.php' ?>"  class="text-white fs-4">Global Diploma </a></li>
+          <li><a href="<?= Url.'chairman-message.php' ?>"  class="text-white fs-4">Chairman Message </a></li>
+          <li><a href="<?= Url.'become-mpe-approved-centre.php' ?>"  class="text-white fs-4">Become an Approved Centre</a></li>
         </ul>
       </div>
       <div class="col-md-4 col-sm-12">
         <ul class="lst-none">
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">All Exams</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Introduction to MPE</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Professional Commitment</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Professional Code of Conduct</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Eight Reasons</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Q & A</a></li>
-          <li><a href="<?= Url.'' ?>"  class="text-white fs-4">Governing Board</a></li>
+          <li><a href="<?= Url.'all-exams.php' ?>"  class="text-white fs-4">All Exams</a></li>
+          <li><a href="<?= Url.'introduction.php' ?>"  class="text-white fs-4">Introduction to MPE</a></li>
+          <li><a href="<?= Url.'professional-commitment.php' ?>"  class="text-white fs-4">Professional Commitment</a></li>
+          <li><a href="<?= Url.'code-of-conduct.php' ?>"  class="text-white fs-4">Professional Code of Conduct</a></li>
+          <li><a href="<?= Url.'eight-reasons.php' ?>"  class="text-white fs-4">Eight Reasons</a></li>
+          <li><a href="<?= Url.'q&a.php' ?>"  class="text-white fs-4">Q & A</a></li>
+          <li><a href="<?= Url.'governing-board.php' ?>"  class="text-white fs-4">Governing Board</a></li>
         </ul>
       </div>
       <p class="text-white fs-4 javanese">All Rights Reserved for Manchester Exam 2023</p>
     </div>
   </footer>
 
-  <!-- Include jQuery -->
-  <script src="<?= Url.'assets/scripts/jquery-3.7.1.min.js' ?>" crossorigin="anonymous"></script>
-
   <!-- Include Bootstrap JavaScript -->
   <script src="<?= Url.'assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js' ?>" crossorigin="anonymous"></script>
-  <script src="<?= Url.'assets/scripts/script.js' ?>"></script>
 </body>
 </html>
