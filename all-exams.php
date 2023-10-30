@@ -71,8 +71,7 @@
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
                         <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
-                          Manchester International Business 
-                          Law Exam</p>
+                          Manchester International Business Law Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
                           <button class="bg-green  rounded-25 py-2 px-3 border-none">
@@ -233,8 +232,7 @@
                     <li class="border-bottom-blue px-2 py-4">
                       <div class="row javanese fs-4 ">
                         <p class="col-8 fs-3 m-0"><img src="<?= img.'logo.png' ?>  " class="mx-3" width="50" alt="">
-                          Manchester International Business 
-                          Law Exam</p>
+                          Manchester International Business Law Exam</p>
                         <p class="col-2 text-center fw-bold m-auto ">50$</p>
                         <div class="col-2 text-center m-auto">
                           <button class="bg-green  rounded-25 py-2 px-3 border-none">

@@ -1,5 +1,5 @@
 <?php include('header.php') ?>
-    <div class="container">
+    <div class="container-fluid p-0">
       <section class="message-section">
         <div class="w-75 mx-auto p-5 my-5 page-heading_section">
           <h1 class="text-uppercase text-center javanese page-title">Message </h1>
@@ -9,7 +9,7 @@
             <img src="<?= img.'header_bottom_right.png' ?>" class="w-25" alt="">
           </div>
         </div>
-        <div class="box text-justify w-75 mx-auto border border-blue rounded bg-white px-4 py-2 fs-3 pb-5">
+        <div class="box text-justify w-75 mx-auto border-blue rounded-25 bg-white px-4 py-2 fs-3 pb-5">
           <p class="box-text   fw-bold">Dear Partners, Exam takers & Users,</p>
           <p class="box-text">Warm greetings to all of you,</p>
           <p class="box-text">It brings me immense pride to welcome each one of you to this global initiative, a

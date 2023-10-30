@@ -1,32 +1,38 @@
 <?php include('header.php') ?>
-<div class="container">
+<div class="container-fluid p-0">
   <!-- TESOL section -->
   <section>
-    <div class="w-75 mx-auto p-5 my-5 page-heading_section">
+    <div class="w-50 mx-auto p-5 my-5 page-heading_section">
       <h1 class="text-uppercase text-center javanese page-title">TESOL</h1>
       <div class="text-center">
         <img src="<?= img.'header_bottom_left.png' ?>" class="w-25" alt="">
         <img src="<?= img.'header_bottom_right.png' ?>" class="w-25" alt="">
       </div>
     </div>
-    <div class="my-md-3 w-75 mx-auto heading-section">
+    <div class="my-md-3 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Overview</p>
     </div>
-    <div class="box box-heading w-90 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3">
-      <img src="<?= img.'box-border.png' ?>" class="box-border-left">
-      <img src="<?= img.'box-border.png' ?>" class="box-border-right">
-      <p class="box-text m-0 text-justify javanese">The Manchester TESOL Exam is a professional British assessment designed to gauge a candidate's proficiency and capability in English language teaching. This accredited examination stands as a testament to an individual's expertise in the domain of English instruction. Moreover, the TESOL Exam can serve as concrete evidence of one's qualification as a TESOL instructor.</p>
+    <div class="d-flex w-80 mx-auto">
+      <div class="m-auto">
+        <img src="<?= img.'box-border.png' ?>" class="tesol-decor-left">
+      </div>
+      <div class="mx-1 border-blue rounded-25 bg-white px-4 py-2 fs-3">
+        <p class="m-0 text-justify javanese">The Manchester TESOL Exam is a professional British assessment designed to gauge a candidate's proficiency and capability in English language teaching. This accredited examination stands as a testament to an individual's expertise in the domain of English instruction. Moreover, the TESOL Exam can serve as concrete evidence of one's qualification as a TESOL instructor.</p> 
+      </div>
+      <div class="m-auto">
+        <img src="<?= img.'box-border.png' ?>" class="tesol-decor-right">
+      </div>
     </div>
   </section>
 
   <!-- Cost section -->
   <section>
-    <div class="my-md-5 w-75 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Cost</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
     </div>
-    <div class="row">
+    <div class="row w-75 mx-auto">
       <div class="col-xl-3 col-md-4 col-12 my-2 my-lg-5 shadow position-relative card rounded-15 offset-xl-2 offset-md-1">
         <div class="bg-grey mx-auto text-center px-3 py-1 rounded-15 mt-3 mb-5">
           One time payment
@@ -53,7 +59,7 @@
         <div class="bg-grey mx-auto text-center px-3 py-1 rounded-15 mt-3 mb-5">
           One time payment
         </div>
-        <p class="text-center fs-2 mt-5">International License and Digital Badge Credential</p>
+        <p class="text-center fs-3 mt-5">International License and Digital Badge Credential</p>
         <div class="text-center fs-1 mb-3">60$</div>
         <a href="" class="btn btn-danger w-50 mx-auto rounded-25 fs-3 mt-5 mb-2 javanese">Choose</a>
         <img src="<?= img.'cost-top-img.png' ?>" class="w-25 position-absolute end-0" alt="">
@@ -64,7 +70,7 @@
         <div class="bg-grey mx-auto text-center px-3 py-1 rounded-15 mt-3 mb-5">
           One time payment
         </div>
-        <p class="text-center fs-2 mt-5 mb-4">Digital Badge Credential</p>
+        <p class="text-center fs-3 mt-5 mb-4">Digital Badge Credential</p>
         <div class="text-center fs-1 mb-5">25$</div>
         <a href="" class="btn btn-danger w-50 mx-auto rounded-25 fs-3 mt-5 mb-2 javanese">Choose</a>
         <img src="<?= img.'cost-top-img.png' ?>" class="w-25 position-absolute end-0" alt="">
@@ -75,7 +81,7 @@
 
   <!-- Exam Elements section -->
   <section>
-    <div class="my-md-5 w-75 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Exam Elements</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
@@ -110,10 +116,10 @@
     <div class="text-center mt-3">
       <img src="<?= img.'section-bottom.png' ?>" alt="" class="section_bottom_img">
     </div>
-    <div class="my-md-5 w-75 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">The different between Exam , Digital badge Credential and International License</p>
     </div>
-    <div class="exam-table-section my-md-5 w-60 mx-auto">
+    <div class="exam-table-section my-md-5 w-60 mx-auto table-responsive">
       <table class="table table-borderless exam-table">
         <thead>
           <tr class="">
@@ -191,38 +197,38 @@
 
   <!-- Sample of the Exam Certificate section -->
   <section>
-    <div class="my-md-5 w-60 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Sample of the Exam Certificate</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
     </div>
-    <div class="box box-area w-80 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
+    <div class="box box-area w-60 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
   </section>
 
   <!-- Sample of the Digital Badge Credential section -->
   <section>
-    <div class="my-md-5 w-60 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Sample of the Digital Badge Credential</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
     </div>
-    <div class="box box-area w-80 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
+    <div class="box box-area w-60 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
   </section>
 
   <!-- Sample of the International License section -->
   <section class="bottom-section">
-    <div class="my-md-5 w-60 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Sample of the International License</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
     </div>
-    <div class="box box-area w-80 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
-    <div class="my-md-5 my-3 w-60 mx-auto row">
-      <div class="col-8">
-        <p class="text-center javanese fs-3">Please feel free to contact us if you have any questions. Our team of professionals and experts is ready to help.</p>
+    <div class="box box-area w-60 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
+    <div class="my-md-5 my-3 w-50 mx-auto row chat-now">
+      <div class="col-md-8 col-6">
+        <p class="text-center javanese fs-3 m-0">Please feel free to contact us if you have any questions. Our team of professionals and experts is ready to help.</p>
       </div>
-      <div class="col-4 d-flex justify-content-center align-items-center">
-        <a href="" class="bg-purple text-white px-3 fs-3 rounded-25 text-center">CHAT NOW</a>
+      <div class="col-md-4 col-6 d-flex justify-content-center align-items-center">
+        <button class="text-uppercase mt-3 purple-button shadow fs-3"><a href="" class="text-white">CHAT NOW</a></button>
       </div>
     </div>
   </section>

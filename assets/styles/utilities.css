@@ -4,6 +4,13 @@
 .fs-28 {
   font-size: 28px;
 }
+.fs-100 {
+  font-size: 6.25rem;
+}
+.fs-60 {
+  font-size: 3.75rem;
+  line-height: 1;
+}
 
 .text-justify {
   text-align: justify;
@@ -32,6 +39,9 @@
 .text-blue3 {
   color: #56CCF2 !important;
 }
+.text-grey {
+  color: #5E6979 !important;
+}
 .underlined {
   text-decoration: underline;
 }
@@ -51,15 +61,36 @@
 .bg-blue2 {
   background-color: #2B227D !important;
 }
+.bg-blue3 {
+  background-color: #005EAB !important;
+}
 .bg-red {
   background-color: #EB5757 !important;
 }
 .bg-grey {
   background-color: #F6F6F6 !important;
 }
+.bg-orange {
+  background-color: #F2994A !important;
+}
+.bg-pink {
+  background-color: #F958D5 !important;
+}
+.bg-grey2 {
+  background-color: #F7F8FA;
+}
+.bg-grey3 {
+  background-color: #E0E0E0;
+}
 
 .border-blue {
   border: 3px solid #2B227D !important;
+}
+.border-blue2 {
+  border: 2px solid #2B227D !important;
+}
+.border-green2 {
+  border: 2px solid #219653 !important;
 }
 .border-grey {
   border: 1px solid #F6F6F6 !important;
@@ -80,11 +111,14 @@
 .border-bottom-blue2 {
   border-bottom: 2px solid #2B227D !important;
 }
+.border-right-black {
+  border: 1px solid #000;
+}
 .rounded-15 {
-  border-radius: 15px;
+  border-radius: 15px !important;
 }
 .rounded-25 {
-  border-radius: 25px;
+  border-radius: 25px !important;
 }
 
 .w-30 {
@@ -105,6 +139,15 @@
 .w-90 {
   width: 90% !important;
 }
+.w-fc {
+  width: fit-content;
+}
+.h-fc {
+  height: fit-content;
+}
+.h-60 {
+  height: 60% !important;
+}
 
 .lst-none {
   list-style-type: none;
@@ -112,7 +155,45 @@
 .td-none {
   text-decoration: none;
 }
+.td-underline {
+  text-decoration: underline;
+}
 
 .bottom-10 {
   bottom: 10% !important;
+}
+.top-40 {
+  top: 40% !important;
+}
+
+
+.badge-green {
+  color: #219653 !important;
+  background-color: rgb(33 150 83 / 20%);
+  padding: 5px 10px;
+}
+.badge-orange {
+  color: #EA7D18 !important;
+  border: 1px solid #EA7D18 !important;
+  padding: 5px 10px;
+}
+.badge-purple {
+  color: #9B51E0 !important;
+  border: 1px solid #9B51E0 !important;
+  padding: 5px 10px;
+}
+
+.purple-button {
+  background-color: #BB6BD9;
+  color: #ffffff !important;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+.green-button {
+  background-color: #219653;
+  color: #ffffff !important;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
 }

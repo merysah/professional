@@ -1,8 +1,8 @@
 <?php include('header.php') ?>
-<div class="container">
+<div class="container-fluid p-0">
   <!-- Global Diploma section -->
   <section>
-    <div class="w-75 mx-auto p-5 my-5 page-heading_section">
+    <div class="w-50 mx-auto p-5 my-5 page-heading_section">
       <h1 class="text-uppercase text-center javanese page-title">Global Diploma</h1>
       <div class="text-center">
         <img src="<?= img.'header_bottom_left.png' ?>" class="w-25" alt="">
@@ -14,45 +14,45 @@
       <div class="col-7 fs-3 javanese text-center m-auto text-uppercase">In partnership with</div>
       <div class="col-3"><img src="<?= img.'cambridge.png' ?>" class="w-100 testimonies-footer" alt=""></div>
     </div>
-    <div class="row my-5 page-logo_section w-90 mx-auto">
+    <div class="row my-5 page-logo_section w-75 mx-auto">
       <div class="col-7 mx-auto bg-grey d-flex justify-content-center align-items-center">
         <img src="<?= img.'play.png' ?>" alt="" style="max-width: 11%">
       </div>
     </div>
-    <div class="my-md-5 w-90 mx-auto steps_section">
+    <div class="my-md-5 w-75 mx-auto steps_section">
       <div class="d-flex steps px-3 py-2 my-3 w-60">
-        <div class="px-3"><img width="70" src="<?= img.'penny.png' ?>" alt=""></div>
+        <div class="px-3 d-flex align-items-center"><img width="70" src="<?= img.'penny.png' ?>" alt=""></div>
         <div class="my-auto">
-          <p class="fw-bold fs-3">Cost : $ 495 </p>
+          <p class="fw-bold fs-3 m-0">Cost : $ 495 </p>
         </div>
       </div>
       <div class="d-flex steps px-3 py-2 my-3 w-70">
-        <div class="px-3"><img width="70" src="<?= img.'Certification.png' ?>" alt=""></div>
+        <div class="px-3 d-flex align-items-center"><img width="70" src="<?= img.'Certification.png' ?>" alt=""></div>
         <div class="my-auto">
-          <p class="fw-bold fs-3">Professional Diploma</p>
+          <p class="fw-bold fs-3 m-0">Professional Diploma</p>
         </div>
       </div>
       <div class="d-flex steps px-3 py-2 my-3 w-80">
-        <div class="px-3"><img width="70" src="<?= img.'map-point.png' ?>" alt=""></div>
+        <div class="px-3 d-flex align-items-center"><img width="70" src="<?= img.'map-point.png' ?>" alt=""></div>
         <div class="my-auto">
-          <p class="fw-bold fs-3">Globally Recognized </p>
+          <p class="fw-bold fs-3 m-0">Globally Recognized </p>
         </div>
       </div>
       <div class="d-flex steps px-3 py-2 my-3 w-90">
-        <div class="px-3"><img width="70" src="<?= img.'School Building.png' ?>" alt=""></div>
+        <div class="px-3 d-flex align-items-center"><img width="70" src="<?= img.'School Building.png' ?>" alt=""></div>
         <div class="my-auto">
-          <p class="fw-bold fs-3">Awarded by a prestigious Academy</p>
+          <p class="fw-bold fs-3 m-0">Awarded by a prestigious Academy</p>
         </div>
       </div>
     </div>
-    <div class="box w-90 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3">
+    <div class="box w-75 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3">
       <p class="box-text m-0 text-justify">We are thrilled to announce our exclusive partnership with the prestigious Cambridge Royal Academy , a renowned British institution. This partnership allows us to award Global Diplomas to students who successfully pass the Manchester Exam. </p>
       <p>The Global Diploma is an esteemed academic credential, internationally recognized, and aligned with the rigorous standards set by Ofqual. This collaboration opens new doors of opportunities for our students, providing them with a globally recognized qualification that will enhance their academic and professional journey.</p>
     </div>
     <div class="text-center mt-3">
       <img src="<?= img.'section-bottom.png' ?>" alt="" class="section_bottom_img">
     </div>
-    <div class="my-md-5 w-90 mx-auto">
+    <div class="my-md-5 w-75 mx-auto">
       <ul class="lst-none overview-listing p-0">
         <li class="fs-3 my-1">You will get a global British diploma.</li>
         <li class="fs-3 my-1">It is an academic degree.</li>
@@ -69,13 +69,13 @@
 
   <!-- Sample of Global Diploma Degree section -->
   <section class="bottom-section">
-    <div class="my-md-5 w-75 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-5">Sample of Global Diploma Degree</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
     </div>
-    <div class="box box-area w-70 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
-    <div class="my-5 w-75 mx-auto">
+    <div class="box box-area w-60 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3"></div>
+    <div class="my-5 w-70 mx-auto">
       <div class="">
         <p class="title text-center w-75 mx-auto text-green javanese text-uppercase fs-2">You will get a global British diploma</p>
         <p class="text-justify fs-3">This means that your diploma will be recognized by employers and educational institutions around the world. This can give you a competitive edge when applying for jobs or further education.</p>

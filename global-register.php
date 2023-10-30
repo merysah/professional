@@ -1,20 +1,20 @@
 <?php include('header.php') ?>
-<div class="container">
+<div class="container-fluid p-0">
   <!-- Global Register section -->
   <section>
-    <div class="w-75 mx-auto p-5 my-5 page-heading_section">
+    <div class="w-50 mx-auto p-5 my-5 page-heading_section">
       <h1 class="text-uppercase text-center javanese page-title">Global Register</h1>
       <div class="text-center">
         <img src="<?= img.'header_bottom_left.png' ?>" class="w-25" alt="">
         <img src="<?= img.'header_bottom_right.png' ?>" class="w-25" alt="">
       </div>
     </div>
-    <div class="row my-5 page-logo_section w-90 mx-auto">
+    <div class="row my-5 page-logo_section w-75 mx-auto">
       <div class="col-7 mx-auto bg-grey d-flex justify-content-center align-items-center">
         <img src="<?= img.'play.png' ?>" alt="" style="max-width: 11%">
       </div>
     </div>
-    <div class="box w-90 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3">
+    <div class="box w-75 mx-auto border border-blue rounded-25 bg-white px-4 py-2 fs-3">
       <p class="box-text m-0 text-justify">In collaboration with <strong>American</strong> and <strong>British</strong> universities, as well as global corporations, Manchester Professional Exam has established the “Global Register of Professionals”. This database showcases qualified professionals and their respective qualification levels.
       To be listed in the register, one must possess either the <strong>Digital Badge Credential</strong> or the <strong>International License</strong> to Practise, as both necessitate enhanced identity verification by Manchester Exam.</p>
     </div>
@@ -25,12 +25,12 @@
 
   <!-- The Global Register in Numbers section -->
   <section>
-    <div class="my-md-5 w-75 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-md-5 pt-5">The Global Register in Numbers</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
     </div>
-    <div class="my-md-5 w-90 mx-auto row">
+    <div class="my-md-5 w-75 mx-auto row">
       <div class="col-md-4 col-12 text-center">
         <span class="reg-numbers fs-2 text-center text-purple border-blue rounded-15 px-5 py-2">822</span>
         <p class="fs-3 m-3">N<sup>o</sup> of Employers and corporations on the Global register</p>
@@ -49,12 +49,12 @@
 
   <!-- The Global Register is accessed section -->
   <section>
-    <div class="my-md-5 w-75 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-md-5 pt-5">The Global Register is accessed and used by</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
     </div>
-    <div class="my-md-5 w-90 mx-auto">
+    <div class="my-md-5 w-75 mx-auto">
       <ul class="lst-none overview-listing p-0">
         <li class="fs-3 my-1">Corporations worldwide</li>
         <li class="fs-3 my-1">Small to medium-sized businesses</li>
@@ -67,22 +67,22 @@
 
   <!-- The Global Register is accessed section -->
   <section>
-    <div class="my-md-5 w-75 mx-auto heading-section">
+    <div class="my-md-5 w-50 mx-auto heading-section">
       <p class="h1 text-uppercase text-center javanese py-md-5 pt-5">Who can be listed on the Global Register, and is there a cost involved?</p>
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-left" alt="">
       <img src="<?= img.'heading-line.png' ?>" class="heading-line-right" alt="">
     </div>
-    <div class="box w-90 mx-auto border border-blue rounded-25 bg-white p-4 fs-3 d-flex">
-      <div class="mx-3"><img src="<?= img.'!.png' ?>" alt=""></div>
+    <div class="box w-75 mx-auto border border-blue rounded-25 bg-white p-4 fs-3 d-flex">
+      <div class="mx-3 d-flex align-items-center"><img src="<?= img.'!.png' ?>" alt=""></div>
       <p class="box-text m-0 text-justify"><strong>Professionals</strong> who score <strong>40%</strong> or higher on any Manchester Exam are eligible for listing. Moreover, registration on the Global Register is entirely free of charge.</p>
     </div>
     <div class="text-center mt-3">
       <img src="<?= img.'section-bottom.png' ?>" alt="" class="section_bottom_img">
     </div>
-    <div class="my-md-5 w-75 mx-auto">
+    <div class="my-md-5 w-60 mx-auto">
       <p class="fs-2">What are the <strong>benefits</strong> of being on the register for <span class="fw-bold text-danger">ME</span> as a <span class="bottom-image">professional? <img src="<?= img.'border-bottom.png' ?>" alt=""></span></p>
     </div>
-    <div class="my-md-5 w-90 mx-auto row">
+    <div class="my-md-5 w-75 mx-auto row">
       <div class="col-lg-6 col-12">
         <div class="benefits-listing">
           <p class="h3 text-center fw-bold">Credibility Boost</p>

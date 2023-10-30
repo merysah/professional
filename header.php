@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="<?= Url.'assets/styles/utilities.css' ?>">
   <link rel="stylesheet" href="<?= Url.'assets/styles/fonts.css' ?>">
   <link rel="stylesheet" href="<?= Url.'assets/styles/media.css' ?>">
+  <link rel="stylesheet" href="<?= Url.'assets/fontawesome/css/fontawesome.min.css' ?>">
+  <link rel="stylesheet" href="<?= Url.'assets/fontawesome/css/brands.min.css' ?>">
+  <link rel="stylesheet" href="<?= Url.'assets/fontawesome/css/solid.min.css' ?>">
 </head>
 
 <body>
@@ -93,3 +96,4 @@
   </header>
   <!-- Main -->
   <main class="container-fluid main-content">
+    <div class="mx-1 border-frame">

@@ -11,6 +11,10 @@ a {
   background: #F7F8FA;
   padding: 10px;
 }
+.border-frame {
+  border-left: 13px double #2B227D;
+  border-right: 13px double #2B227D;
+}
 .logo {
   width: 100px;
 }
@@ -21,31 +25,28 @@ a {
 .navbar-dots img {
   width: 120px;
 }
-.top-right-corner {
+.corner-decor {
   position: absolute;
+  width: 10%;
+  background: #F7F8FA;
+}
+.top-right-corner {
   top: 10px;
   right: 10px;
-  width: 10%;
 }
 .top-left-corner {
-  position: absolute;
   top: 10px;
   left: 10px;
-  width: 10%;
   transform: rotate(270deg);
 }
 .bottom-right-corner {
-  position: absolute;
   bottom: 10px;
   right: 10px;
-  width: 10%;
   transform: rotate(90deg);
 }
 .bottom-left-corner {
-  position: absolute;
   bottom: 10px;
   left: 10px;
-  width: 10%;
   transform: rotate(180deg);
 }
 .top-border {
@@ -70,26 +71,6 @@ a {
   transform: rotate(180deg);
   width: 70%;
   margin: auto;
-}
-.left-border {
-  left: 10px;
-}
-.right-border {
-  right: 10px;
-}
-.side-border, .side-sec-border {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  margin: auto;
-  background-color: #2B227D;
-  border-radius: 10px;
-}
-.left-sec-border {
-  left: 15px;
-}
-.right-sec-border {
-  right: 15px;
 }
 .box-text{
   text-indent: 20px;
@@ -135,13 +116,6 @@ section {
 .btn-blue {
   background-color: #005EAB;
   color: #fff;
-}
-.purple-button {
-  background-color: #BB6BD9;
-  color: #ffffff !important;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 50px;
 }
 .card-img-top {
   height: 284px;
@@ -206,8 +180,15 @@ section {
 .img-cont-3 {
   background-image: url(../images/vecteezy_pink_3.png);
 }
-.all-exams_section, .message-section, .testimonies, .bottom-section {
+.img-cont-4 {
+  background-size: cover !important;
+  background-image: url(../images/pink-watercolor-stain.png);
+}
+.message-section, .bottom-section {
   padding-bottom: 120px;
+}
+.all-exams_section {
+  padding-bottom: 155px;
 }
 .overview-listing li::before {
   background-image: url(../images/check.png);
@@ -222,6 +203,7 @@ section {
 }
 .box-area {
   box-shadow: 0px 0px 20px 0px rgba(43,34,125,0.7);
+  padding-bottom: 40% !important;
 }
 .custom-listing-bullet {
   background-image: url(../images/listing-bg.png);
@@ -249,22 +231,98 @@ section {
 .register-form-message {
   margin-bottom: 155px;
 }
-.box-heading {
-  position: relative;
+.tesol-decor-left, .tesol-decor-right {
+  width: 30px;
 }
-.box-border-left {
-  position: absolute;
-  width: 3% !important;
-  left: -40px;
-  top: 20px;
+.box-decor-left, .box-decor-right {
+  width: 24px;
 }
-.box-border-right {
-  position: absolute;
-  width: 3% !important;
-  right: -40px;
-  top: 20px;
+.pro-com-decor-left, .pro-com-decor-right {
+  width: 35px;
+}
+.box-decor-right, .tesol-decor-right, .pro-com-decor-right {
   transform: rotate(180deg);
 }
 .exam-table tbody td {
   border: 1px solid #f6f6f6;
 } 
+.committees-box-img {
+  top: -36px;
+  left: 40%;
+}
+.form-check-input:checked {
+  background-color: #F7F8FA;
+  background-image: url(../images/checked-mark.png);
+}
+.form-check-input:focus, .form-control:focus {
+  box-shadow: none;
+}
+.right-separator {
+  position: relative;
+  margin-right: 9px;
+}
+.right-separator::after {
+  content: url(../images/professional-courses/right-line.png);
+  position: absolute;
+  right: -8px;
+  top: 0;
+}
+.company-logo {
+  width: 92px;
+  height: 92px;
+}
+.approved-center-bg {
+  background-image: url(../images/become_centre/approved-center-decor.png), url(../images/become_centre/approved-center-decor-left.png);
+  background-position: right top, left top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+}
+
+
+
+
+.img-border{
+  width: 192px;
+  height: 192px;
+  border: 5px solid #2B227D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+.img-border img{
+  position: relative;
+  z-index: 2;
+}
+.img-border::before,
+.img-border::after{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+}
+.img-border::before{
+  width: calc(100% + 20px);
+  height: calc(100% - 50px);
+  left: -12px;
+}
+.img-border::after{
+  width: calc(100% - 50px);
+  height: calc(100% + 20px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.id-box {
+  height: 650px;
+}
+.departments {
+  background-image: url(../images/landing_page/business2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.department-item {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,1) 80% , rgba(255,255,255,1) 100%);
+}
