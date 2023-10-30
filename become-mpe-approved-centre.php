@@ -34,10 +34,10 @@
         <p>MPE is a premier global examination organization specializing in work-based assessments. We are regulated and recognized by esteemed bodies including Ofqual, SQA, Qualifications Wales, and CCEA, which empower us to administer exams on an international scale. Our examination approved centres are strategically located around the world.</p>
       </div>
       <div class="col-sm-5 col-3 position-relative">
-        <img src="<?= img.'governing_board/blue-arrow.png' ?>" alt="" class="w-75 arrow-img position-absolute top-50">
+        <img src="<?= img.'governing_board/blue-arrow.png' ?>" alt="" class="w-60 arrow-img position-absolute top-50">
       </div>
       <div class="col-sm-5 col-3 position-relative">
-        <img src="<?= img.'governing_board/purple-arrow.png' ?>" alt="" class="w-75 arrow-img position-absolute top-50">
+        <img src="<?= img.'governing_board/purple-arrow.png' ?>" alt="" class="w-60 arrow-img position-absolute top-50">
       </div>
       <div class="card shadow rounded-25 p-3 my-sm-5 my-2 col-sm-7 col-9 fs-3 box-text">
         <p>As a pivotal figure in the global examination landscape, our centres contribute significantly to the world’s training sector. We are instrumental in fostering the continuous training and upskilling of the global workforce through our top-tier qualifications and learning programs.</p>
